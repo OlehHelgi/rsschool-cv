@@ -10,6 +10,7 @@ I learn quickly and easily, I interact well with the team, I am mobile, enterpri
 ## ___Skills___
 * HTML5
 * CSS3
+* SASS
 * JavaScript (Fundamentals)
 * Git/GitHub/GitLab
 * VS Code
