@@ -32,7 +32,6 @@ function countPositivesSumNegatives(input) {
        else if (input [i] < 0){
         negSum += input [i];
       }
- 
   }
   if (posCount === 0 || negSum === 0 || posCount === null || negSum === null){
        return [ ];
