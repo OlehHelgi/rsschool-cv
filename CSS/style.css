@@ -1,0 +1,82 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: auto;
+  width: auto;
+  max-width: 1000px;
+}
+
+main {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: #edecec;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-menu a:hover {
+  color: crimson;
+}
+
+header {
+  background-color: #edecec;
+  padding: 10px;
+}
+
+header h1 {
+  margin-top: 0;
+}
+
+.contacts {
+  font-weight: 700;
+  color: black;
+}
+
+.my-projects a {
+  color: black;
+}
+
+.my-projects a:hover {
+  color: crimson;
+}
+
+.sidebar {
+  background-color: #e0ebfe;
+  width: 370px;
+  padding: 10px;
+}
+
+.about-me {
+  padding: 0 10px;
+}
+
+footer {
+  margin-bottom: 20px;
+  border: solid #edecec;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
+footer a:hover {
+  color: crimson;
+}
+
+.year {
+  font-weight: 700;
+}
+
+.hub {
+  display: flex;
+  justify-content: center;
+}
+
+footer ul {
+  list-style-type: none;
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link href="./CSS/style.css" rel="stylesheet">
+  <title>My CV</title>
+</head>
+
+<body>
+  <header>
+    <h1>Oleh Helgi</h1>
+    <nav class="nav-menu">
+      <ul>
+        <li><span class="contacts">Location:</span> Kyiv, Ukraine</li>
+        <li><a href="tel:+380883445678"><span class="contacts">Phone:</span>+380&nbsp;88&nbsp;344&nbsp;56&nbsp;78</a></li>
+        <li><a href="mailto:e-mail:povicolo@gmail.com"><span class="contacts">e-mail:</span> povicolo@gmail.com</a>
+        </li>
+        <li><span class="contacts">Discord:</span> olehhelgi</li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="about-me">
+      <h2>About Me</h2>
+      <p>
+        I learn quickly and easily, I interact well with the team, I am mobile, enterprising, I adequately respond to
+        criticism.
+      </p>
+      <h2>Projects</h2>
+      <ol class="my-projects">
+        <li><a href="https://incandescent-hotteok-c71c4b.netlify.app/" target="_blank">WebStudio</a></li>
+        <li><a href="https://thriving-lily-bf37f8.netlify.app/" target="_blank">Portfolio</a></li>
+        <li><a href="https://vermillion-marigold-1e9585.netlify.app/" target="_blank">Hotel</a></li>
+      </ol>
+      <h2>Experience</h2>
+      <p>
+        Design, administration and maintenance of video surveillance systems, access control systems, various computer
+        and
+        electronic equipment
+      </p>
+      <h2>Education</h2>
+      <ul>
+        <li>EPAM University
+          <ul>
+            <li>Front-End Self-Paced Online Program</li>
+          </ul>
+        </li>
+        <li>Prometheus online learning platform (courses)
+          <ul>
+            <li>Web programming with Python and JavaScript CS50</li>
+            <li>Basics of Web UI development</li>
+            <li>Basics of Linux</li>
+          </ul>
+        </li>
+        <li>National Technical University of Ukraine “Igor Sikorsky Kyiv Polytechnic Institute”
+          <ul>
+            <li>electronics engineer</li>
+          </ul>
+        </li>
+      </ul>
+      <h2>Code Example</h2>
+      <p>
+        Given an array of integers. Return an array, where the first element is the count of positives numbers and the
+        second element is sum of negative numbers. 0 is neither positive nor negative.If the input is an empty array or
+        is
+        null, return an empty array.
+      </p>
+      <pre>
+      function countPositivesSumNegatives(input) {
+        if (input === null || input.lenght == 0){
+          return [ ];
+        }
+        let posCount = 0;
+        let negSum = 0;
+        for (let i = 0; i &lt; input.length; i ++){
+          if (input [i] &gt; 0){
+            posCount ++;
+            }
+            else if (input [i] &lt; 0){
+              negSum +=input [i];
+            }
+         }
+         if (posCount===0 || negSum===0 || posCount===null || negSum===null){
+            return [ ];
+         }
+         return [posCount, negSum];
+         }
+    </pre>
+    </div>
+    <aside class="sidebar">
+      <img src="./images/Frame1.png" alt="myphoto">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>SASS</li>
+        <li>JavaScript (Fundamentals)</li>
+        <li>Git/GitHub/GitLab</li>
+        <li>VS Code</li>
+        <li>Figma</li>
+      </ul>
+      <h2>English</h2>
+      <ul>
+        <li>Ukrainian, Russian - native speaker</li>
+        <li>English - B1</li>
+      </ul>
+    </aside>
+  </main>
+  <footer class="hub">
+    <img src="./images/rs_school.svg" alt="school-logo" width="140">
+    <ul>
+      <li><a href="https://github.com/OlehHelgi" target="_blank">https://github.com/OlehHelgi</a></li>
+      <li><a href="https://rs.school/js/" target="_blank">https://rs.school/js</a></li>
+      <li class="year">2023</li>
+    </ul>
+  </footer>
+</body>
+
+</html>
